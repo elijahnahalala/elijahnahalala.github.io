@@ -1,8 +1,28 @@
+
 body {
-    font-family: Georgia, Times, serif;
-    color: purple;
-    background-color: #d8da3d
+    font-family: monospace;
+    color: #373D3f;
 }
 h1 {
-    font-family: Helvetica, Arial
+    font-family: monospace;
+}
+
+/* unvisited link */
+a:link {
+  color: green;
+}
+
+/* visited link */
+a:visited {
+  color:purple ;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
 }
