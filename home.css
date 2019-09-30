@@ -3,12 +3,13 @@
 
 body {
     font-family: sans-serif;
-    color: purple;
+    color: white;
     background-color: #d8da3d
-  padding: 0;
+  padding: ;
   margin: 0;
   background-image: url("blu.jpg")
 }
+
 
 
 .overlay {
@@ -109,4 +110,8 @@ body {
 .footer-copyright {
   color: #666;
   padding: 40px 0;
+}
+
+.container {
+  text-align: center;
 }
