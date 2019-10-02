@@ -9,7 +9,7 @@ body {
   min-height: 100%;
   min-width: 100%;
   left: 0;
-  top: 0;
+  top: 56px;
   background: rgba(0, 0, 0, 0.6);
 }
 
@@ -102,4 +102,8 @@ body {
 .footer-copyright {
   color: #666;
   padding: 40px 0;
+}
+
+.container{
+  margin-top: 50px;
 }
