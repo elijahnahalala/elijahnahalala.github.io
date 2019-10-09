@@ -12,43 +12,58 @@
     <title>Monday</title>
 <style>
 
-body{
-  background-color: #1abc9c;
-
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-
-
 </style>
+
 </head>
 <body>
 
 <div>
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-    <a href="https://elijahnahalala.github.io" class="navbar-brand mb-0 h1">Elijah Winterbottom</a>
-    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-     <div class="collapse navbar-collapse" id="navbarMenu">
-      <ul class="navbar-nav ml-auto">
-       <li class="nav-item">
-        <a href="https://elijahnahalala.github.io/Monday/index.html" class="nav-link">Monday</a>
-        <li class="nav-item">
-            <a href="https://elijahnahalala.github.io/Wednesday/index.html" class="nav-link">Wednesday</a>
-       </li>
-      </ul>
-    </div>
-   </nav>
-  </div>
-
-<div>
-  <div class="container-fluid">
-    <div class="row text-center">
-      <div class="col-md-6">Hi</div>
-      <div class="col-md-6">Hi</div>
-    </div>
-  </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="https://elijahnahalala.github.io">Home</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Click Me!
+              </a>
+                <!-- Here's the magic. Add the .animate and .slide-in classes to your .dropdown-menu and you're all set! -->
+                <div class="dropdown-menu dropdown-menu-right animate slideIn" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="https://elijahnahalala.github.io/Wednesday/index.html">Wednesday</a>
+                  <a class="dropdown-item" href="https://elijahnahalala.github.io/Scratch/index.html">Scratch Work</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="https://elijahnahalala.github.io/readingquestions/index.html">Reading Questions</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>  
 </div>
+
+<header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-12 text-center">
+          <h1 class="font-weight-light">Monday</h1>
+          <p class="lead">CS Monday Page!</p>
+        </div>
+      </div>
+    </div>
+  </header>
 
 
 
